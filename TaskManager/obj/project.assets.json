@@ -1,0 +1,525 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "MetroModernUI/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net/MetroFramework.Design.dll": {},
+          "lib/net/MetroFramework.Fonts.dll": {},
+          "lib/net/MetroFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net/MetroFramework.Design.dll": {},
+          "lib/net/MetroFramework.Fonts.dll": {},
+          "lib/net/MetroFramework.dll": {}
+        }
+      },
+      "Syncfusion.Compression.Base/23.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Compression.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Compression.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Licensing/23.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Pdf.WinForms/23.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "23.1.40",
+          "Syncfusion.Licensing": "23.1.40"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Pdf.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Pdf.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "WebSocketSharp-netstandard/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/websocket-sharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/websocket-sharp.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "MetroModernUI/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net/MetroFramework.Design.dll": {},
+          "lib/net/MetroFramework.Fonts.dll": {},
+          "lib/net/MetroFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net/MetroFramework.Design.dll": {},
+          "lib/net/MetroFramework.Fonts.dll": {},
+          "lib/net/MetroFramework.dll": {}
+        }
+      },
+      "Syncfusion.Compression.Base/23.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Compression.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Compression.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Licensing/23.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Pdf.WinForms/23.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "23.1.40",
+          "Syncfusion.Licensing": "23.1.40"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Pdf.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Pdf.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "WebSocketSharp-netstandard/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/websocket-sharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/websocket-sharp.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-arm64": {
+      "MetroModernUI/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net/MetroFramework.Design.dll": {},
+          "lib/net/MetroFramework.Fonts.dll": {},
+          "lib/net/MetroFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net/MetroFramework.Design.dll": {},
+          "lib/net/MetroFramework.Fonts.dll": {},
+          "lib/net/MetroFramework.dll": {}
+        }
+      },
+      "Syncfusion.Compression.Base/23.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Compression.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Compression.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Licensing/23.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Pdf.WinForms/23.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "23.1.40",
+          "Syncfusion.Licensing": "23.1.40"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Pdf.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Pdf.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "WebSocketSharp-netstandard/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/websocket-sharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/websocket-sharp.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "MetroModernUI/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net/MetroFramework.Design.dll": {},
+          "lib/net/MetroFramework.Fonts.dll": {},
+          "lib/net/MetroFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net/MetroFramework.Design.dll": {},
+          "lib/net/MetroFramework.Fonts.dll": {},
+          "lib/net/MetroFramework.dll": {}
+        }
+      },
+      "Syncfusion.Compression.Base/23.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Compression.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Compression.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Licensing/23.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Pdf.WinForms/23.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "23.1.40",
+          "Syncfusion.Licensing": "23.1.40"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Pdf.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Pdf.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "WebSocketSharp-netstandard/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/websocket-sharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/websocket-sharp.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "MetroModernUI/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net/MetroFramework.Design.dll": {},
+          "lib/net/MetroFramework.Fonts.dll": {},
+          "lib/net/MetroFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net/MetroFramework.Design.dll": {},
+          "lib/net/MetroFramework.Fonts.dll": {},
+          "lib/net/MetroFramework.dll": {}
+        }
+      },
+      "Syncfusion.Compression.Base/23.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Compression.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Compression.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Licensing/23.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Pdf.WinForms/23.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "23.1.40",
+          "Syncfusion.Licensing": "23.1.40"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Pdf.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Pdf.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "WebSocketSharp-netstandard/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/websocket-sharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/websocket-sharp.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MetroModernUI/1.4.0": {
+      "sha512": "p2F3w8bF1tb0tpkDceEVO65UYMKnJxdQyNxVyl/OjrFZHighicLYZDppKkiqmvBZ10XUi2mqHiIJUzXBP3GElQ==",
+      "type": "package",
+      "path": "metromodernui/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net/MetroFramework.Design.dll",
+        "lib/net/MetroFramework.Fonts.dll",
+        "lib/net/MetroFramework.dll",
+        "metromodernui.1.4.0.nupkg.sha512",
+        "metromodernui.nuspec"
+      ]
+    },
+    "Syncfusion.Compression.Base/23.1.40": {
+      "sha512": "VtRMnUD6Rzxs2VVkucounJqv7crgxQB7uukPYx03N2eYbIrEGcow1JKwbtaK4WJE+blTNh3T5X8j7KF3iKl3sQ==",
+      "type": "package",
+      "path": "syncfusion.compression.base/23.1.40",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net40/Syncfusion.Compression.Base.dll",
+        "lib/net40/Syncfusion.Compression.Base.xml",
+        "lib/net45/Syncfusion.Compression.Base.dll",
+        "lib/net45/Syncfusion.Compression.Base.xml",
+        "lib/net451/Syncfusion.Compression.Base.dll",
+        "lib/net451/Syncfusion.Compression.Base.xml",
+        "lib/net46/Syncfusion.Compression.Base.dll",
+        "lib/net46/Syncfusion.Compression.Base.xml",
+        "lib/net6.0-windows7.0/Syncfusion.Compression.Base.dll",
+        "lib/net6.0-windows7.0/Syncfusion.Compression.Base.xml",
+        "syncfusion.compression.base.23.1.40.nupkg.sha512",
+        "syncfusion.compression.base.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Licensing/23.1.40": {
+      "sha512": "YINuGj+/cqNPioddjV9mBYQJokXDb32e2C+NHshz1L9oPBRxfbB08dRx1c5cCdABbzQEGn2SLX8c6xj89Kv98w==",
+      "type": "package",
+      "path": "syncfusion.licensing/23.1.40",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/net6.0/Syncfusion.Licensing.dll",
+        "lib/net7.0/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.23.1.40.nupkg.sha512",
+        "syncfusion.licensing.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Pdf.WinForms/23.1.40": {
+      "sha512": "2PvpD2Z5MqTSFTchB+o64F3DIog0WfCjIRM4lVMU1IrKsEYXvr5FyPueBESLppJgOyd2rrADJ2a/k3WmG3FUNw==",
+      "type": "package",
+      "path": "syncfusion.pdf.winforms/23.1.40",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net40/Syncfusion.Pdf.Base.dll",
+        "lib/net40/Syncfusion.Pdf.Base.xml",
+        "lib/net45/Syncfusion.Pdf.Base.dll",
+        "lib/net45/Syncfusion.Pdf.Base.xml",
+        "lib/net451/Syncfusion.Pdf.Base.dll",
+        "lib/net451/Syncfusion.Pdf.Base.xml",
+        "lib/net46/Syncfusion.Pdf.Base.dll",
+        "lib/net46/Syncfusion.Pdf.Base.xml",
+        "lib/net6.0-windows7.0/Syncfusion.Pdf.Base.dll",
+        "lib/net6.0-windows7.0/Syncfusion.Pdf.Base.xml",
+        "syncfusion.pdf.winforms.23.1.40.nupkg.sha512",
+        "syncfusion.pdf.winforms.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "WebSocketSharp-netstandard/1.0.1": {
+      "sha512": "knoinAv31vbdxXdypnzN2MPX5hyntVLWceq6OdWRXkr9zzqp/RWbxSuLFGbkW8De1061URgNAN43BUTlgMx1CA==",
+      "type": "package",
+      "path": "websocketsharp-netstandard/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/websocket-sharp.dll",
+        "lib/net35/websocket-sharp.xml",
+        "lib/net45/websocket-sharp.dll",
+        "lib/net45/websocket-sharp.xml",
+        "lib/netstandard2.0/websocket-sharp.dll",
+        "lib/netstandard2.0/websocket-sharp.xml",
+        "websocketsharp-netstandard.1.0.1.nupkg.sha512",
+        "websocketsharp-netstandard.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "MetroModernUI >= 1.4.0",
+      "Syncfusion.Compression.Base >= 23.1.40",
+      "Syncfusion.Licensing >= 23.1.40",
+      "Syncfusion.Pdf.WinForms >= 23.1.40",
+      "WebSocketSharp-netstandard >= 1.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Ching\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\C#\\TaskManager\\TaskManager\\TaskManager\\TaskManager.csproj",
+      "projectName": "TaskManager",
+      "projectPath": "E:\\C#\\TaskManager\\TaskManager\\TaskManager\\TaskManager.csproj",
+      "packagesPath": "C:\\Users\\Ching\\.nuget\\packages\\",
+      "outputPath": "E:\\C#\\TaskManager\\TaskManager\\TaskManager\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Ching\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "MetroModernUI": {
+            "target": "Package",
+            "version": "[1.4.0, )"
+          },
+          "Syncfusion.Compression.Base": {
+            "target": "Package",
+            "version": "[23.1.40, )"
+          },
+          "Syncfusion.Licensing": {
+            "target": "Package",
+            "version": "[23.1.40, )"
+          },
+          "Syncfusion.Pdf.WinForms": {
+            "target": "Package",
+            "version": "[23.1.40, )"
+          },
+          "WebSocketSharp-netstandard": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-arm64": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

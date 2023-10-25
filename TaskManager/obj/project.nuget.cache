@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "zp/1Tsm5M7/yLd5MCLduIpa8yKCLF0CwiX3ZZq6yNxDzSkwbSA3tjWqTuCyBsYyoGa2LM/qzjJRkA/+xHfAJRA==",
+  "success": true,
+  "projectFilePath": "E:\\C#\\TaskManager\\TaskManager\\TaskManager\\TaskManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ching\\.nuget\\packages\\metromodernui\\1.4.0\\metromodernui.1.4.0.nupkg.sha512",
+    "C:\\Users\\Ching\\.nuget\\packages\\syncfusion.compression.base\\23.1.40\\syncfusion.compression.base.23.1.40.nupkg.sha512",
+    "C:\\Users\\Ching\\.nuget\\packages\\syncfusion.licensing\\23.1.40\\syncfusion.licensing.23.1.40.nupkg.sha512",
+    "C:\\Users\\Ching\\.nuget\\packages\\syncfusion.pdf.winforms\\23.1.40\\syncfusion.pdf.winforms.23.1.40.nupkg.sha512",
+    "C:\\Users\\Ching\\.nuget\\packages\\websocketsharp-netstandard\\1.0.1\\websocketsharp-netstandard.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
